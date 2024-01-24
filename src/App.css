@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-app{
+  height: 100vh;
+  background-color: rgb(16,16,16);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+h1{
+  text-align: center;
+  color: whitesmoke;
+}
+article{
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 12px 1px whitesmoke;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0
+}
+article input{
+  width: 250px;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding-left: 12px;
+}
+article input::placeholder{
+  color: rgb(16,16,16) !important;
+}
+article button{
+  height: 40px;
+  width: 100px;
+  border-radius: 12px;
+  border: none;
+  color: rgb(16,16,16);
+  font-weight: 600;
+}
+.colorIndicator{
+  height: 50px;
+  width:300px;
+  text-align: center;
+  margin-top: 12px;
+  font-weight: 800;
+  font-size: 32px;
+  border-radius: 50px;
+}
